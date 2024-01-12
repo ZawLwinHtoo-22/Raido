@@ -1,0 +1,9 @@
+.l-wrap-inner{
+    max-width: 1160px;
+    margin: 0 auto;
+    background-color: red;
+
+    &--full{
+        max-width: 1440px;
+    }
+}
