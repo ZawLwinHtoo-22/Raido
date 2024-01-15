@@ -1,0 +1,64 @@
+.raido {
+    text-align: center;
+    align-items: center;
+    background-color: $c-black;
+
+    &__img {
+
+        width: 750px;
+        height: 400px;
+        margin: 0 auto;
+
+        // h2 {
+
+        //     background-image: url('../img/bg2.png');
+        //     background-size: cover;
+        //     color: transparent;
+        //     background-clip: text;
+        //     font-size: 280px;
+        //     padding-top: 50px;
+        // }
+
+        img{
+            padding-top: 100px;
+        }
+
+    }
+
+    .gallery-bloc{
+        &__inner{
+            display: flex;  
+            // flex-wrap: wrap;
+            max-width: 1236px;
+            justify-content: space-between;
+            
+            .gallery-card{
+                position: relative;
+                padding: 5px;
+        
+                img{
+                  width: 100%;
+                }
+        
+                }
+
+                .gallery-title{
+                    position: absolute;
+                    width: 100%;
+                    margin-top: -60px;
+                    h3{
+                        color: #fff;
+                    }
+                    p{
+                        color: #fff;
+                    }
+                }
+        }
+       
+           
+
+        
+
+
+    }
+}
