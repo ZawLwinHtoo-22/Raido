@@ -1,0 +1,26 @@
+.c-btn{
+    &--view{
+        width: 235px;
+        margin: 0 auto;
+        background-color: $btn-color;
+        padding: 16px;
+        text-align: center;
+        font-family: 'Lato',sans-serif;
+    }
+    a{
+        text-decoration: none;
+        color: #0A0D13;
+    }
+    img{
+        justify-content: space-between;
+    }
+}
+a::after{
+    content: url('../img/Page-2.png');
+        position: absolute;
+        background: #E89400;
+        opacity: 1;
+        padding: 14px;
+        margin-left: 30px;
+        margin-top: -16px;
+}

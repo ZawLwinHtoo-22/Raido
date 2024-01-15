@@ -1,9 +1,22 @@
-.l-wrap-inner{
-    max-width: 1160px;
+.p-bloc {
+    background-color: #0a0d13;
+    max-width: 1519px;
     margin: 0 auto;
-    background-color: red;
+}
+.l-wrap-inner {
+    max-width: 1179px;
+    margin: 0 auto;
 
-    &--full{
-        max-width: 1440px;
+    &--full {
+        max-width: 1519px;
     }
 }
+// @media screen and (max-width:1440px) {
+//     .l-wrap-inner{
+//         max-width:100%;
+//     }
+//     .p-bloc{
+//         max-width: 100%;
+//     }
+    
+// }
