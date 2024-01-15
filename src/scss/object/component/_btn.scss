@@ -28,13 +28,26 @@
         opacity: 1;
         padding: 13px;
         margin-left: 65px;
-        margin-top: -19px;
-     
-        
-       
-    
-      
-
-      
+        margin-top: -19px; 
     }
+
+    &--view{
+        width: 235px;
+        margin: 0 auto;
+        background-color: $btn-color;
+        padding: 16px;
+        text-align: center;
+        font-family: 'Lato',sans-serif;
+    
+        a::after{
+            content: url('../img/Page-2.png');
+                position: absolute;
+                background: #E89400;
+                opacity: 1;
+                padding: 14px;
+                margin-left: 30px;
+                margin-top: -16px;
+        }
+    }
+    
 }

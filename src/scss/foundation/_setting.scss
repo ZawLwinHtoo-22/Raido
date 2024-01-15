@@ -1,11 +1,15 @@
-$color-white: #fff;
+$color-white:#fff;
 $btn-color:#F49F0A;
+$p-color:#757D8C;
 $c-black: #000;
 
-$font-play: "Playfair Display", Sans-serif;
-$font-muli: "Muli",Sans-serif;
-$font-poppins: "Poppins",Sans-serif;
+$font-play:'Playfair Display',sans-serif;
+$font-muli:'Muli',sans-serif;
+$font-poppins:'Poppins',sans-serif;
 
-body{
-    background-color: $c-black;
+// body{
+//     background-color: $c-black;
+// }
+h2,h3,p,span{
+    color: $color-white;
 }

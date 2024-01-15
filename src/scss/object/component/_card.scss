@@ -1,0 +1,147 @@
+.latest{
+    max-width: 1519px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+// .c-title{
+//     margin: 0 auto;
+//     align-items: center;
+//     margin-bottom: 40px;
+
+    // h2{
+    //     font-family: $font-play ;
+    //     font-size: 42px;
+    //     text-align: center;
+    //     margin-bottom: 15px;
+    // }
+    // p{
+    //     font-family: $font-muli;
+    //     font-size: 16px;
+    //     text-align: center;
+    // }
+
+.img-card{
+    width: 100%;
+    display: flex;
+
+}
+
+.card-bloc{
+    width: 380px;
+    position: relative;
+
+    img{
+        width: 100%;
+    }
+}
+.txt-box{
+    max-width: 280px;
+    position: absolute;
+    margin-top:-90px;
+    color: $color-white;
+    padding-left: 30px;
+    font-family: $font-muli;
+    font-size: 18px;
+    line-height: 24px;  
+}
+
+.travel-journals{
+    margin-bottom:70px;
+}
+    .travel-card{
+    max-width: 1179px;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__bloc{
+        width: 350px;
+        padding: 20px;
+        margin-bottom: 160px;    
+}
+.img-box{
+   img{
+    width: 100%;
+    
+   }
+}
+.txt-box{
+    background-color: #1F242E;
+    width: 100%;
+    padding: 35px;
+    &__logo{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        gap: 4px 20px;
+    }
+    &__para{
+        font-family:$font-muli ;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+       &__date{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        
+        p{
+            color:$p-color;
+        }
+       }
+    }
+}
+@media screen and (max-width:800px) {
+    .latest{
+        max-width: 100%;
+    }
+    .travel-journals{
+        max-width: 100%;
+    }
+    .c-title{
+        width: 100%;
+    }
+    .travel-card{
+        width: 100%;
+
+        &__bloc{
+            max-width: 100%;
+        }
+        .txt-box{
+            max-width: 100%;
+        }
+    }
+    
+}
+// @media screen and (max-width:600px) {
+//     .travel-card{
+//         max-width: 100%;
+//     }
+    
+// }
+// @media screen and (max-width:400px) {
+//     .travel-card{
+//         max-width: 100%;
+//     }
+    
+// }
+
+@media screen and (max-width:800px) {
+    .img-card{
+        max-width: 100%;
+    }
+}
+// @media screen and (max-width:600px) {
+//     .img-card{
+//         max-width: 100%;
+//     }
+// }
+// @media screen and (max-width:400px) {
+//     .img-card{
+//         max-width: 100%;
+//     }
+// }
+
+
