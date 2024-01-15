@@ -1,0 +1,79 @@
+.mainvisual {
+
+    background-image: url('../img/bg1.png');
+    background-size: 100% 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto;
+    
+
+    &__txt {
+
+        width: 1000px;
+
+        h2 {
+            font-family: $font-play;
+            font-weight: 700;
+            font-size: 54px;
+            height: 162px;
+            width: 635px;
+            color: $color-white;
+            letter-spacing: 2px;
+            opacity: 1;
+        }
+
+        p {
+            
+            width: 232px;
+            font-family: $font-muli;
+            font-size: 18px;
+            font-weight: 400;
+            color: $color-white;
+            margin-bottom: 50px;
+            padding-left: 50px;
+           
+            position: relative;
+        }
+
+
+        p::before {
+            content: "";
+            position: absolute;
+            transform: translateY(-50%);
+            width: 40px;
+            margin-top: 7px;
+            left: 0;
+            justify-content: space-between;
+            height: 1px;
+            background-color: $color-white;
+        }
+
+    }
+    @media screen and (min-width: 320px) {    
+        
+        .mainvisual{
+          
+            &__txt{
+                
+
+                h2{
+                    
+                }
+            }
+        }
+        
+    }
+
+  }
+
+
+
+
+   
+
+
+  
+
+

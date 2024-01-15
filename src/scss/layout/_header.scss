@@ -1,0 +1,104 @@
+.l-header {
+
+    width: 100%;
+    position: fixed;
+    background-color: $c-black;
+    border-bottom: 1px solid $color-white;
+    opacity: 0.4;
+
+   
+
+    &__top {
+
+        width: 1070px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    &__logo {
+        a {
+            margin-left: 90px;
+            width: 74px;
+            font-family: $font-poppins;
+            color: $color-white;
+            text-decoration: none;
+            letter-spacing: 0.69px;
+            opacity: 1;
+            font-weight: 700;
+            font-size: 22px;
+        }
+
+
+    }
+
+    &__nav {
+        
+        position: relative;
+        display: block;
+       
+       
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+
+
+            li {
+                width: 87px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                a {
+                    text-decoration: none;
+                    font-family: $font-muli;
+                    color: $color-white;
+                    font-size: 16px;
+                    font-weight: 400;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 87px;
+
+                    img {
+                        width: auto;
+                    }
+
+                    &:hover {
+
+                        font-weight: 700;
+                        color: $btn-color;
+                        border-bottom: 2px solid $btn-color;
+                    }
+
+                }
+
+
+            }
+        }
+    }
+
+    .icons{
+        position: absolute;
+        right: 5%;
+        font-size: 30px;
+        color: $color-white;
+        cursor: pointer;
+        display: none;
+        
+    }
+    #check{
+        display: none;
+    }
+
+}
+
+
+
+
+

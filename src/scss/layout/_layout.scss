@@ -1,9 +1,121 @@
-.l-wrap-inner{
+.l-wrap-inner {
     max-width: 1160px;
     margin: 0 auto;
-    background-color: red;
 
-    &--full{
+    &--full {
         max-width: 1440px;
     }
+}
+
+
+
+// For Mainvisual
+
+// @media screen and (max-width: 768px) {
+
+//    h2 {
+//         font-size: 28px; 
+//         width: 100%; 
+//       }
+
+//       p {
+//         font-size: 14px; 
+//         margin-bottom: 20px;
+//       }
+
+//       p::before {
+//         width: 15px; 
+//       }
+//     }
+
+
+// For Header
+@media screen and (max-width: 800px) {
+
+    .l-header {
+
+        
+
+        &__top {
+            height: 67px;
+
+        }
+
+        &__nav {
+            position: absolute;
+            display: block;
+            width: 250px;
+
+            top: 0;
+            right: -320px;
+            background-color: $color-white;
+            transition: all 0.3s ease;
+
+            ul {
+                padding-top: 30px;
+                padding-left: 30px;
+                flex-direction: column;
+                align-items: start;
+
+                li {
+                    height: 44px;
+
+                    a {
+                        margin: 0 auto;
+                        font-size: 14px;
+                        color: $c-black;
+                       
+                    }
+                    a:hover{
+
+                        border-bottom: 0;
+                    }
+                }
+            }
+
+        }
+
+        .icons {
+            display: inline-flex;
+
+            &__close {
+                display: none;
+            }
+        }
+
+        #check {
+            display: block;
+            position: absolute;
+            right: 5%;
+        }
+
+        #check:checked~.icons.icons__menu {
+            display: none;
+        }
+
+        #check:checked~.icons.icons__close {
+            display: block;
+        }
+
+        #check:checked~.l-header__nav {
+            right: 0;
+            margin-top: 67px;
+        }
+
+
+    }
+}
+
+
+@media screen and (max-width: 1263px){
+    .l-wrap-inner{
+        max-width: 100%;
+        
+    }
+    .mainvisual{
+        &__txt{
+            margin-left: 20px;
+        }
+    }
+   
 }

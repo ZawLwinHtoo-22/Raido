@@ -1,2 +1,11 @@
-$color:#fff;
-$btncolor:#F49F0A;
+$color-white: #fff;
+$btn-color:#F49F0A;
+$c-black: #000;
+
+$font-play: "Playfair Display", Sans-serif;
+$font-muli: "Muli",Sans-serif;
+$font-poppins: "Poppins",Sans-serif;
+
+body{
+    background-color: $c-black;
+}

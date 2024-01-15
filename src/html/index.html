@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <title>APS 2023 Frontend Webpack</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <meta name="keywords" content=" ">
   <meta name="description" content=" ">
 
@@ -15,12 +16,19 @@
 
   <header class="l-header">
     <div class="l-wrap-inner">
-      <div class="header-wrap">
+      <div class="l-header__top">
         <div class="l-header__logo">
           <h1>
             <a href="#" target="_self">Raido.</a>
           </h1>
         </div>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+          <i class="bx bx-menu icons__menu"></i>
+          <i class="bx bx-x icons__close"></i>
+        </label>
+
         <nav class="l-header__nav">
           <ul>
             <li><a href="#" target="_self">Home</a></li>
@@ -30,15 +38,19 @@
             <li><a href="#" target="_self">Journels</a></li>
             <li><a href="#" target="_self">Gallery</a></li>
             <li><a href="#" target="_self">Contact</a></li>
-            <li><a href="#" target="_self">FontAwesome</a></li>
+            <li><a href="#" target="_self"><img src="../img/search.png" alt="search-icon"></a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
 
+  
+
   <section class="mainvisual">
+
     <div class="l-wrap-inner">
+
       <div class="mainvisual__txt">
         <h2>The new way to plan your next adventure</h2>
         <p>Explore the colourful world</p>
@@ -46,12 +58,15 @@
           <a href="#" target="_self">Explore More</a>
         </div>
       </div>
+
     </div>
+
+
   </section>
 
 
-  <main>
-    <!-- For About us -->
+  <!-- <main>
+     For About us 
     <section class="p-bloc">
       <div class="l-wrap-inner l-wrap-inner--full">
         <div class="about-bloc">
@@ -89,7 +104,7 @@
       </div>
     </section>
 
-    <!-- For Discover -->
+     For Discover
     <section class="discover">
       <div class="l-wrap-inner">
         <div class="c-title">
@@ -132,17 +147,12 @@
 
             </div>
           </div>
-
-
-
-
-
         </div>
 
 
     </section>
 
-    <!-- For Latest -->
+     For Latest 
     <section class="latest">
       <div class="l-wrap inner l-wrap-inner--full">
         <div class="c-title">
@@ -181,7 +191,7 @@
     </section>
 
 
-    <!-- For Travel -->
+     For Travel 
     <section class="travel-journals">
       <div class="l-wrap-inner">
 
@@ -312,69 +322,77 @@
 
 
       </div>
-    </section>
-    <!-- For Raido -->
+    </section>-->
+
+  <main>
+    <!-- For Raido  -->
     <section class="raido">
-      <div class="raido__img">
-        <img src="" alt="">
-      </div>
-      <!-- For Gallery -->
+      <div class="l-wrap-inner l-wrap-inner--full">
 
-      <div class="gallery-bloc">
-        <div class="c-title">
-          <h2>Latest</h2>
-          <p>We jieifp lkji</p>
+        <div class="raido__img">
+          <img src="../img/radio-logo.png" alt="">
         </div>
 
-        <div class="gallery-bloc__inner">
-          <div class="gallery-card">
-            <img src="" alt="">
-            <div class="c-title">
-              <h2>Latest</h2>
-              <p>We jieifp lkji</p>
-            </div>
+        <!-- For Gallery -->
 
-
-          </div>
-          <div class="gallery-card">
-            <img src="" alt="">
-            <div class="c-title">
-              <h2>Latest</h2>
-              <p>We jieifp lkji</p>
-            </div>
-
+        <div class="gallery-bloc">
+          <div class="c-title">
+            <h2>Gallery Photos</h2>
+            <p>Explore the most beautiful places in the world</p>
           </div>
 
-          <div class="gallery-card">
-            <img src="" alt="">
-            <div class="gallery-txt">
-              <h2></h2>
-              <p></p>
-            </div>
-          </div>
+          <div class="gallery-bloc__inner">
 
-          <div class="gallery-card">
-            <img src="" alt="">
-            <div class="c-title">
-              <h2>Latest</h2>
-              <p>We jieifp lkji</p>
+            <div class="gallery-card">
+              <img src="../img/radio1.png" alt="card-pic">
+              <div class="gallery-title">
+                <h3>Bali</h3>
+                <p>Indonesia</p>
+              </div>
             </div>
 
-          </div>
-          <div class="gallery-card">
-            <img src="" alt="">
-            <div class="c-title">
-              <h2>Latest</h2>
-              <p>We jieifp lkji</p>
+            <div class="gallery-card">
+              <img src="../img/radio2.png" alt="card-pic">
+              <div class="gallery-title">
+                <h3>Bali</h3>
+                <p>Indonesia</p>
+              </div>
+
             </div>
 
+            <div class="gallery-card">
+              <img src="../img/radio.png" alt="c-pic">
+              <div class="gallery-title">s
+                <h3>Bali</h3>
+                <p>Indonesia</p>
+              </div>
+            </div>
+
+            <div class="gallery-card">
+              <img src="../img/radio3.png" alt="c-pic">
+              <div class="gallery-title">
+                <h3>Bali</h3>
+                <p>Indonesia</p>
+              </div>
+
+            </div>
+            <div class="gallery-card">
+              <img src="../img/radio4.png" alt="card pic">
+              <div class="gallery-title">
+                <h3>Bali</h3>
+                <p>Indonesia</p>
+              </div>
+
+            </div>
           </div>
         </div>
+
       </div>
+
 
     </section>
 
-    <section class="contact">
+    <!-- <section class="contact">
       <div class="l-warp-inner">
         <div class="contact__txt">
           <h2></h2>
@@ -392,36 +410,49 @@
           <p>Send us an Enquiry</p>
         </div>
       </div>
-    </section>
+    </section> -->
+
   </main>
+
   <!-- footer -->
-  <footer class="l-footer">
-    <div class="l-wrap-inner">
-      <h3>Radio</h3>
-      <div class="footer-social">
-        <ul>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-        </ul>
+  <div class="footer">
+    <footer class="l-footer">
+      <div class="l-wrap-inner">
+
+        <div class="l-footer__mid">
+
+          <h3>Radio</h3>
+          <div class="footer-social">
+            <ul>
+              <li><a href=""><img src="../img/facebook.png" alt="fb"></a></li>
+              <li><a href=""><img src="../img/instagram.png" alt="insta"></a></li>
+              <li><a href=""><img src="../img/twitter.png" alt="twitter"></a></li>
+              <li><a href=""><img src="../img/linkedin.png" alt="in"></a></li>
+            </ul>
+
+          </div>
+          <p>Cheap Romantic Vacations. Many people feel that there is a limited amount of obundance, wealth, or chances
+            to
+            succeed in life.</p>
+          <ul>
+            <li><a href="#" target="_self">Home</a></li>
+            <li><a href="#" target="_self">About Us</a></li>
+            <li><a href="#" target="_self">Discover</a></li>
+            <li><a href="#" target="_self">Blog</a></li>
+            <li><a href="#" target="_self">Journels</a></li>
+            <li><a href="#" target="_self">Gallery</a></li>
+            <li><a href="#" target="_self">Contact</a></li>
+
+          </ul>
+        </div>
+
+        <address>&copy; 2022 All right Reserve</address>
 
       </div>
-      <p></p>
-      <ul>
-        <li><a href="#" target="_self">Home</a></li>
-        <li><a href="#" target="_self">About Us</a></li>
-        <li><a href="#" target="_self">Discover</a></li>
-        <li><a href="#" target="_self">Blog</a></li>
-        <li><a href="#" target="_self">Journels</a></li>
-        <li><a href="#" target="_self">Gallery</a></li>
-        <li><a href="#" target="_self">Contact</a></li>
+    </footer>
+  </div>
 
-      </ul>
-      <address>&copy; All right Reserve</address>
 
-    </div>
-  </footer>
 </body>
 
 </html>

@@ -1,0 +1,40 @@
+.c-btn {
+
+    width: 197px;
+    
+    display: flex;
+    background-color: $btn-color;
+    opacity: 1;
+    padding: 20px;
+   align-items: center;
+   padding-left: 20px;
+
+    a {
+        width: 147px;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+        color: #0A0D13;
+        opacity: 1;
+        position: relative;
+        font-family: $font-muli;
+
+    }
+
+    a::after {
+        
+        content: url('../img/navigator.png');
+        position: absolute;
+        background: #E89400;
+        opacity: 1;
+        padding: 13px;
+        margin-left: 65px;
+        margin-top: -19px;
+     
+        
+       
+    
+      
+
+      
+    }
+}
