@@ -1,53 +1,101 @@
 .c-btn {
 
     width: 197px;
-    
+
     display: flex;
-    background-color: $btn-color;
+
     opacity: 1;
     padding: 20px;
-   align-items: center;
-   padding-left: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+    &--explore {
+        background-color: $btn-color;
+
+        a {
+            width: 147px;
+            text-decoration: none;
+            letter-spacing: 0.5px;
+            color: #0A0D13;
+            opacity: 1;
+            position: relative;
+            font-family: $font-muli;
+
+        }
+
+        a::after {
+
+            content: url('../img/navigator.png');
+            position: absolute;
+            background: $btn-color;
+            opacity: 1;
+            padding: 13px;
+            margin-left: 65px;
+            margin-top: -19px;
+        }
+    }
+
+
+
+
+
+    &--view {
+        width: 197px;
+        display: flex;
+        opacity: 1;
+        padding: 20px;
+        align-items: center;
+        padding-left: 20px;
+        background-color: $btn-color;
+        margin: 0 auto;
+
+        a {
+            width: 147px;
+            text-decoration: none;
+            letter-spacing: 0.5px;
+            color: #0A0D13;
+            opacity: 1;
+            position: relative;
+            font-family: $font-muli;
+        }
+
+        a::after {
+            content: url('../img/Page-2.png');
+            position: absolute;
+            background: $btn-color;
+            opacity: 1;
+            padding: 17px;
+            margin-left: 45px;
+            margin-top: -19px;
+        }
+
+    }
+
+    &--discover {
+        width: 197px;
+        margin-top:100px;
+        border: 1px solid #fff;
+        padding: 16px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
 
     a {
         width: 147px;
         text-decoration: none;
         letter-spacing: 0.5px;
-        color: #0A0D13;
+        color: #fff;
         opacity: 1;
         position: relative;
         font-family: $font-muli;
-
     }
 
-    a::after {
-        
-        content: url('../img/navigator.png');
-        position: absolute;
-        background: #E89400;
-        opacity: 1;
-        padding: 13px;
-        margin-left: 65px;
-        margin-top: -19px; 
-    }
-
-    &--view{
-        width: 235px;
-        margin: 0 auto;
-        background-color: $btn-color;
-        padding: 16px;
-        text-align: center;
-        font-family: 'Lato',sans-serif;
-    
-        a::after{
-            content: url('../img/Page-2.png');
-                position: absolute;
-                background: #E89400;
-                opacity: 1;
-                padding: 14px;
-                margin-left: 30px;
-                margin-top: -16px;
+        a::after {
+            content: url('../img/Page-1.png');
+            position: absolute;
+            opacity: 1;
+            padding: 15px;
+            margin-left: 35px;
+            margin-top: -19px;
         }
     }
-    
-}
+    }

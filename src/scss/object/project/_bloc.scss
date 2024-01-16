@@ -9,56 +9,90 @@
         height: 400px;
         margin: 0 auto;
 
-        // h2 {
-
-        //     background-image: url('../img/bg2.png');
-        //     background-size: cover;
-        //     color: transparent;
-        //     background-clip: text;
-        //     font-size: 280px;
-        //     padding-top: 50px;
-        // }
-
-        img{
+        img {
             padding-top: 100px;
         }
-
     }
 
-    .gallery-bloc{
-        &__inner{
-            display: flex;  
-            // flex-wrap: wrap;
+    .gallery-bloc {
+        &__inner {
+            display: flex;
+            padding: 30px;
             max-width: 1236px;
             justify-content: space-between;
-            
-            .gallery-card{
+            margin-bottom: 50px;
+
+            .gallery-card {
                 position: relative;
                 padding: 5px;
-        
-                img{
-                  width: 100%;
-                }
-        
-                }
 
-                .gallery-title{
-                    position: absolute;
+                img {
                     width: 100%;
-                    margin-top: -60px;
-                    h3{
-                        color: #fff;
-                    }
-                    p{
-                        color: #fff;
-                    }
                 }
+
+            }
+
+            .gallery-title {
+                position: absolute;
+                width: 100%;
+                margin-top: -60px;
+
+                h3 {
+                    color: #fff;
+                }
+
+                p {
+                    color: #fff;
+                }
+            }
         }
-       
-           
-
-        
-
 
     }
+}
+.discover{
+    max-width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    .img-bloc{
+        max-width: 1142px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+        &__place{
+            max-width:340px;
+            padding: 20px;
+            position: relative;
+           
+            img{
+                width: 100%;
+            }
+            .txt-box{
+              
+                h3{
+                    font-family: $font-play;
+                    font-size: 34px;
+                    color: $btn-color;
+                    margin-bottom: 30px;
+                }
+                p{
+                    font-family: $font-muli;
+                    font-size: 16px;
+                    line-height: 21px;
+                    margin-bottom: 100px;
+                    
+                }
+                
+            }
+        
+        }
+        
+    }
+}
+
+.img-bloc__place:nth-child(2){
+    padding-top: 80px;
 }
