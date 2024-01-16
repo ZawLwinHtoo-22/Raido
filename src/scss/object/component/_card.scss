@@ -4,8 +4,6 @@
     margin-bottom: 50px;
 }
 
-
-
 .img-card{
     width: 100%;
     display: flex;
@@ -77,55 +75,75 @@
        }
     }
 }
-@media screen and (max-width:800px) {
+@media  screen and (max-width:800px) {
     .latest{
         max-width: 100%;
     }
+    .img-card{
+        width: 100%;
+    }
+    .card-bloc{
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+    }
+    .txt-box{
+        font-size: 12px;
+    }
+    
+}
+@media  screen and (max-width:600px) {
+    .latest{
+        max-width: 100%;
+    }
+    .img-card{
+        width: 100%;
+    }
+    .card-bloc{
+        width: 100%;
+    }
+    .txt-box{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    
     .travel-journals{
         max-width: 100%;
     }
-    .c-title{
-        width: 100%;
-    }
+    
     .travel-card{
         width: 100%;
 
         &__bloc{
-            max-width: 100%;
+            width: 100%;
         }
         .txt-box{
-            max-width: 100%;
+            width: 100%;
+            }
+            &__para{
+                font-size: 10px;
+            }
+            &__date{
+                width: 30%;
+
+            p{
+                width: 30%;
+            }
+            }
         }
     }
     
-}
-// @media screen and (max-width:600px) {
-//     .travel-card{
-//         max-width: 100%;
-//     }
-    
-// }
-// @media screen and (max-width:400px) {
-//     .travel-card{
-//         max-width: 100%;
-//     }
-    
-// }
+
 
 @media screen and (max-width:800px) {
     .img-card{
         max-width: 100%;
     }
 }
-// @media screen and (max-width:600px) {
-//     .img-card{
-//         max-width: 100%;
-//     }
-// }
-// @media screen and (max-width:400px) {
-//     .img-card{
-//         max-width: 100%;
-//     }
-// }
 
 
