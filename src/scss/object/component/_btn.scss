@@ -98,4 +98,21 @@
             margin-top: -19px;
         }
     }
+
+
+    &--read{
+       
+    
+        a::after {
+            
+            content: url('../img/navigator.png');
+            position: absolute;
+            background: #E89400;
+            opacity: 1;
+            padding: 13px;
+            margin-left: 83px;
+            margin-top: -19px; 
+        }
     }
+    
+}
